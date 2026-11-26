@@ -5,12 +5,16 @@ Informatics student at Universitas Sebelas Maret (UNS).
 
 I build fullstack web platforms, fleet telematics pipelines, and embedded IoT systems. My technical work centers on distributed web architectures with Laravel and Node.js, real-time camera streaming protocols, and microcontroller automation.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/architecture.svg" alt="System Architecture and Data Topology" width="100%" />
+</p>
+
 ---
 
-## Featured Projects
+## Selected Work
 
-### [HPU Dashcam & Telemetry Monitoring System](https://github.com/CahyaDwiSaputra/Magang-HPU)
-Enterprise fleet monitoring platform built for PT HPU mining operations.
+### [Mining Fleet Telematics & CCTV Monitoring](https://github.com/CahyaDwiSaputra/Magang-HPU)
+Vehicle dashcam streaming and telemetry platform developed for PT HPU mining operations.
 * **Streaming & Telematics:** Integrates with CMSV6 media gateways to stream dual-channel MDVR video (road view and cabin view) alongside live GPS tracking on mining haul roads.
 * **Safety Event Center:** Real-time synchronization of ADAS and DMS safety alerts, including harsh braking, sharp turns, collision alerts, and driver distraction warnings.
 * **Stack:** Laravel 13, React 19 (Inertia.js), Tailwind CSS, PostgreSQL.
