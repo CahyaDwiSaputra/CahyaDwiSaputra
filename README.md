@@ -24,11 +24,11 @@ Web hosting, domain, and cloud VPS storefront platform.
 * Built with Vite, React, Express, and PostgreSQL.
 * Integrated with WHMCS billing systems for automated provisioning, invoice tracking, and customer lifecycle management.
 
-### [ElderCare AI](https://github.com/CahyaDwiSaputra/ElderCareAI-Frontend)
-Health and safety monitoring system for elderly care.
-* Frontend developed with Next.js 16 App Router, React 19, Tailwind CSS v4, and Zustand.
-* Backend API ([ElderCareAI-Backend](https://github.com/CahyaDwiSaputra/ElderCareAI-Backend)) built with Node.js, Express, and TypeScript, delivering an in-memory ~15 FPS MJPEG livecam stream decoupled from AI inference.
-* Centralized telemetry handling for wearable IoT health vitals and emergency fall alerts.
+### [Growmatic Smart Farming System](https://github.com/CahyaDwiSaputra/GrowMatic)
+IoT smart farming platform designed for mushroom cultivation monitoring and automated irrigation control.
+* Real-time telemetry monitoring for environmental parameters including ambient temperature, humidity, and soil moisture levels.
+* Automated irrigation and misting control system responding dynamically to microclimate sensor readings.
+* Multi-tier dashboard interface featuring cultivation zone monitoring, operational charts, and admin management portals.
 
 ### [Embedded IoT & Sensor Systems](https://github.com/CahyaDwiSaputra/arduino-iot-collection)
 Curated collection of microcontroller firmware projects built across ESP32 and Arduino platforms.
