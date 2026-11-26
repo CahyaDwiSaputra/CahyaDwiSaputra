@@ -1,8 +1,11 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/banner.svg" width="100%" alt="Cahya Dwi Saputra" />
-</p>
+# Cahya Dwi Saputra
 
-I am an Informatics student at Universitas Sebelas Maret (UNS) based in Surakarta, Indonesia. My work centers on building distributed web platforms, fleet telematics pipelines, and embedded IoT systems.
+Informatics student at Universitas Sebelas Maret (UNS), Surakarta.
+Focused on building fullstack web platforms, fleet telematics pipelines, and embedded IoT systems.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/snake.svg" alt="GitHub Contribution Snake" width="100%" />
+</p>
 
 ---
 
@@ -18,7 +21,7 @@ Vehicle dashcam streaming and telemetry platform developed for PT HPU mining ope
 
 ### [cuan.in Platform](https://github.com/CahyaDwiSaputra/cuanin)
 Centralized escrow payment gateway and multi-tenant storefront builder for Indonesian MSMEs.
-* Architecture built to protect buyers and sellers through an automated escrow mechanism.
+* Built to protect buyers and sellers through an automated escrow mechanism.
 * Integrated QRIS payment handling with Midtrans Snap and automated disbursement payout flows upon verified delivery.
 * Architectural domain separation: central platform agency at root and isolated tenant storefronts on custom subdomains.
 * *Stack: Node.js, Express, PostgreSQL, Midtrans Snap & Iris API.*
@@ -49,19 +52,11 @@ Curated collection of firmware implementations across ESP32 and Arduino Uno micr
 
 | Domain | Tools & Technologies |
 |---|---|
-| **Backend & Services** | Laravel, Node.js, Express, PHP, TypeScript, REST APIs, WebSockets |
+| **Backend & Services** | Laravel, Node.js (Express), PHP, TypeScript, REST APIs, WebSockets |
 | **Frontend** | React, Next.js, Inertia.js, Tailwind CSS, Flutter |
 | **Databases** | PostgreSQL, MySQL |
 | **IoT & Telematics** | CMSV6 Media Gateway, ESP32, Arduino Uno, RFID, MQTT, C++ |
 | **DevOps & Environment** | Docker, Git, GitHub CLI, Linux, Postman |
-
----
-
-## Activity & Metrics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CahyaDwiSaputra&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
-</p>
 
 ---
 
