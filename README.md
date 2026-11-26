@@ -1,6 +1,24 @@
-# Cahya Dwi Saputra
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/header.svg" width="100%" alt="Cahya Dwi Saputra Banner" />
+</p>
 
-Software Engineer and Informatics student at Universitas Sebelas Maret (UNS), focusing on fullstack web development, fleet telematics, and embedded IoT systems. Experienced in building production web platforms, payment escrow architectures, real-time video streaming pipelines, and microcontrollers.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Fullstack+Engineering+%26+Vehicle+Telematics;Building+Scalable+Cloud+Platforms+%26+Livecam+Streaming;IoT+Sensors%2C+Microcontrollers+%26+Edge+Hardware;Informatics+Student+%40+Universitas+Sebelas+Maret" alt="Typing Header" />
+</p>
+
+---
+
+## About
+
+Software Engineer and Informatics student at Universitas Sebelas Maret (UNS) with hands-on experience in fullstack web architecture, telematics gateways, and embedded IoT systems. Primary technical focus involves building distributed web platforms with Laravel and Node.js, integrating video streaming pipelines, and writing firmware for industrial and agricultural automation.
+
+---
+
+## Primary Engineering Focus
+
+* **Fullstack Web Platforms**: End-to-end web engineering using Laravel, Inertia.js React, Next.js, and Node.js Express backed by PostgreSQL and MySQL.
+* **Vehicle Telematics & Dashcam Streaming**: Platform integration with CMSV6 enterprise media servers, dual-channel camera streaming, live GPS coordinates tracking, and active ADAS/DMS safety event alert processing.
+* **IoT & Embedded Systems**: Hardware firmware development across ESP32 and Arduino Uno for environmental telemetry, microclimate control, and RFID access security.
 
 ---
 
@@ -40,6 +58,10 @@ Curated collection of microcontroller firmware projects built across ESP32 and A
 
 ## Tech Stack
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,php,python,dart,cpp,react,nextjs,laravel,nodejs,express,tailwind,flutter,postgres,mysql,docker,git,linux,arduino&perline=10&theme=dark" alt="Tech Stack Icons" />
+</p>
+
 ### Languages
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -71,6 +93,14 @@ Curated collection of microcontroller firmware projects built across ESP32 and A
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
+
+---
+
+## Contribution Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CahyaDwiSaputra&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=3fb950" alt="Contribution Activity Graph" width="100%" />
+</p>
 
 ---
 
