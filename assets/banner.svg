@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 140" width="100%" height="140" fill="none">
+  <defs>
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0" />
+      <stop offset="50%" stop-color="#58a6ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#3fb950" stop-opacity="0" />
+    </linearGradient>
+    <style>
+      .mono-label {
+        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+        font-size: 11px;
+        letter-spacing: 1.5px;
+        fill: #8b949e;
+      }
+      .name-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        fill: #f0f6fc;
+      }
+      .desc-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 13.5px;
+        fill: #8b949e;
+      }
+      .coord-text {
+        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+        font-size: 10.5px;
+        letter-spacing: 1px;
+        fill: #6e7681;
+      }
+      .pulse-ring {
+        animation: pulse 2.4s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+        transform-origin: 792px 36px;
+      }
+      @keyframes pulse {
+        0% { r: 3; opacity: 0.9; stroke-width: 1.5; }
+        70% { r: 10; opacity: 0; stroke-width: 0.5; }
+        100% { r: 10; opacity: 0; }
+      }
+      .scan-beam {
+        animation: scan 4s linear infinite;
+      }
+      @keyframes scan {
+        0% { transform: translateX(-200px); }
+        100% { transform: translateX(850px); }
+      }
+    </style>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="0.5" y="0.5" width="849" height="139" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+
+  <!-- Left Accent Accent Line -->
+  <path d="M 1 12 C 1 5.5, 5.5 1, 12 1 L 12 139 C 5.5 139, 1 134.5, 1 128 Z" fill="#1f6feb" />
+
+  <!-- Text Hierarchy -->
+  <text x="32" y="38" class="mono-label">UNIVERSITAS SEBELAS MARET / INFORMATIKA</text>
+  <text x="32" y="76" class="name-text">Cahya Dwi Saputra</text>
+  <text x="32" y="105" class="desc-text">Fullstack Web Platforms · Vehicle Telematics · Embedded IoT Hardware</text>
+
+  <!-- Right Meta & Status -->
+  <circle cx="792" cy="36" r="3.5" fill="#3fb950" />
+  <circle cx="792" cy="36" r="4" fill="none" stroke="#3fb950" class="pulse-ring" />
+  <text x="734" y="40" class="mono-label" fill="#3fb950">ONLINE</text>
+  <text x="648" y="105" class="coord-text">7°33'S 110°50'E · SURAKARTA</text>
+
+  <!-- Subtle Bottom Edge Scan Line -->
+  <g class="scan-beam">
+    <rect x="0" y="137.5" width="180" height="2" fill="url(#beamGrad)" />
+  </g>
+</svg>

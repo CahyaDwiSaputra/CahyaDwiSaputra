@@ -1,117 +1,66 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/header.svg" width="100%" alt="Cahya Dwi Saputra Banner" />
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/banner.svg" width="100%" alt="Cahya Dwi Saputra" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=Fullstack+Engineering+%26+Vehicle+Telematics;Building+Scalable+Cloud+Platforms+%26+Livecam+Streaming;IoT+Sensors%2C+Microcontrollers+%26+Edge+Hardware;Informatics+Student+%40+Universitas+Sebelas+Maret" alt="Typing Header" />
-</p>
+I am an Informatics student at Universitas Sebelas Maret (UNS) based in Surakarta, Indonesia. My work centers on building distributed web platforms, fleet telematics pipelines, and embedded IoT systems.
 
 ---
 
-## About
+## Selected Work
 
-Software Engineer and Informatics student at Universitas Sebelas Maret (UNS) with hands-on experience in fullstack web architecture, telematics gateways, and embedded IoT systems. Primary technical focus involves building distributed web platforms with Laravel and Node.js, integrating video streaming pipelines, and writing firmware for industrial and agricultural automation.
-
----
-
-## Primary Engineering Focus
-
-* **Fullstack Web Platforms**: End-to-end web engineering using Laravel, Inertia.js React, Next.js, and Node.js Express backed by PostgreSQL and MySQL.
-* **Vehicle Telematics & Dashcam Streaming**: Platform integration with CMSV6 enterprise media servers, dual-channel camera streaming, live GPS coordinates tracking, and active ADAS/DMS safety event alert processing.
-* **IoT & Embedded Systems**: Hardware firmware development across ESP32 and Arduino Uno for environmental telemetry, microclimate control, and RFID access security.
-
----
-
-## Featured Projects
-
-### [HPU Dashcam & Telemetry Monitoring System](https://github.com/CahyaDwiSaputra/Magang-HPU)
-Enterprise fleet monitoring platform built with Laravel 13, Inertia.js React 19, and Tailwind CSS.
-* Integrates directly with the CMSV6 fleet telematics platform for low-latency dual-channel dashcam video streaming (Front and Cabin).
-* Live GPS tracking with interactive map telemetry (speed, fuel levels, satellite locks).
-* Active ADAS and DMS safety alarm synchronization: harsh braking, sharp turns, collision alerts, and driver distraction warnings.
-* Background telemetry processing worker running continuous status ingestion.
+### [Mining Fleet Telematics & CCTV Monitoring](https://github.com/CahyaDwiSaputra/Magang-HPU)
+Vehicle dashcam streaming and telemetry platform developed for PT HPU mining operations.
+* Integrates with CMSV6 media gateways to stream dual-channel MDVR video (road and cabin view) with low latency.
+* Live GPS coordinates tracking on interactive maps with speed, fuel, and satellite telemetry.
+* Synchronizes ADAS and DMS safety events: harsh braking, sudden acceleration, sharp turns, and driver distraction warnings.
+* Background telemetry ingestion worker running automated status and alarm polling.
+* *Stack: Laravel 13, React 19 (Inertia.js), Tailwind CSS, PostgreSQL.*
 
 ### [cuan.in Platform](https://github.com/CahyaDwiSaputra/cuanin)
-Multi-tenant MSME e-commerce website builder and centralized escrow payment gateway.
-* Architecture built with Node.js, Express, and PostgreSQL.
-* Automated QRIS payment processing via Midtrans Snap and automated merchant disbursement payout flows.
-* Clean separation between platform agency storefront and isolated merchant subdomains.
+Centralized escrow payment gateway and multi-tenant storefront builder for Indonesian MSMEs.
+* Architecture built to protect buyers and sellers through an automated escrow mechanism.
+* Integrated QRIS payment handling with Midtrans Snap and automated disbursement payout flows upon verified delivery.
+* Architectural domain separation: central platform agency at root and isolated tenant storefronts on custom subdomains.
+* *Stack: Node.js, Express, PostgreSQL, Midtrans Snap & Iris API.*
 
-### [Hostuner Cloud Webhosting](https://github.com/CahyaDwiSaputra/hostuner-webhosting)
-Web hosting, domain, and cloud VPS storefront platform.
-* Built with Vite, React, Express, and PostgreSQL.
-* Integrated with WHMCS billing systems for automated provisioning, invoice tracking, and customer lifecycle management.
+### [GrowMatic Smart Farming](https://github.com/CahyaDwiSaputra/GrowMatic)
+IoT environmental monitoring and microclimate automation for oyster mushroom cultivation.
+* Real-time sensor telemetry for ambient temperature, relative humidity, and soil/substrate moisture.
+* Automated misting and ventilation control system responding dynamically to environmental thresholds.
+* Web dashboard featuring cultivation zone health metrics and admin configuration portals.
+* *Stack: ESP32, Arduino Uno, Sensor Network, JavaScript, MySQL.*
 
-### [Growmatic Smart Farming System](https://github.com/CahyaDwiSaputra/GrowMatic)
-IoT smart farming platform designed for mushroom cultivation monitoring and automated irrigation control.
-* Real-time telemetry monitoring for environmental parameters including ambient temperature, humidity, and soil moisture levels.
-* Automated irrigation and misting control system responding dynamically to microclimate sensor readings.
-* Multi-tier dashboard interface featuring cultivation zone monitoring, operational charts, and admin management portals.
+### [Hostuner Cloud Platform](https://github.com/CahyaDwiSaputra/hostuner-webhosting)
+Webhosting, domain registration, and cloud VPS storefront platform.
+* Custom frontend connected to Express backend and WHMCS billing systems.
+* Automated domain availability checks, package provisioning, and invoice lifecycle management.
+* *Stack: Vite, React, Node.js Express, PostgreSQL, WHMCS.*
 
-### [Embedded IoT & Sensor Systems](https://github.com/CahyaDwiSaputra/arduino-iot-collection)
-Curated collection of microcontroller firmware projects built across ESP32 and Arduino platforms.
-* ESP32 RFID MFRC522 smart door lock access control with servo and audio feedback.
-* Wireless IoT weather station transmitting DHT11 telemetry to Blynk Cloud.
-* Ultrasonic proximity radar and liquid level telemetry with 16x2 I2C LCD readouts.
-
----
-
-## Tech Stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,php,python,dart,cpp,react,nextjs,laravel,nodejs,express,tailwind,flutter,postgres,mysql,docker,git,linux,arduino&perline=10&theme=dark" alt="Tech Stack Icons" />
-</p>
-
-### Languages
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-CC292B?style=flat&logo=sqlite&logoColor=white)
-
-### Web & Backend Frameworks
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=laravel&logoColor=white)
-![Inertia.js](https://img.shields.io/badge/Inertia.js-9553E9?style=flat&logo=inertia&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-
-### Databases, Storage & Tools
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-### IoT & Hardware Platforms
-![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat&logo=arduino&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat&logo=mqtt&logoColor=white)
+### [Embedded Systems & Sensor Lab](https://github.com/CahyaDwiSaputra/arduino-iot-collection)
+Curated collection of firmware implementations across ESP32 and Arduino Uno microcontrollers.
+* ESP32 RFID access control doorlock (MFRC522) with SPI communication, SG90 servo actuation, and buzzer feedback.
+* Wireless IoT weather station streaming DHT11 environmental readings to Blynk IoT Cloud.
+* Ultrasonic proximity radar (HC-SR04) and water level telemetry with 16x2 I2C LCD readouts.
+* *Stack: C++, ESP32, Arduino Uno, Hardware Sensors (SPI, I2C, UART).*
 
 ---
 
-## Contribution Activity
+## Technical Toolkit
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CahyaDwiSaputra&theme=tokyo-night&area=true&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=3fb950" alt="Contribution Activity Graph" width="100%" />
-</p>
+| Domain | Tools & Technologies |
+|---|---|
+| **Backend & Services** | Laravel, Node.js, Express, PHP, TypeScript, REST APIs, WebSockets |
+| **Frontend** | React, Next.js, Inertia.js, Tailwind CSS, Flutter |
+| **Databases** | PostgreSQL, MySQL |
+| **IoT & Telematics** | CMSV6 Media Gateway, ESP32, Arduino Uno, RFID, MQTT, C++ |
+| **DevOps & Environment** | Docker, Git, GitHub CLI, Linux, Postman |
 
 ---
 
-## GitHub Analytics
+## Activity & Metrics
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=CahyaDwiSaputra&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CahyaDwiSaputra&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CahyaDwiSaputra&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&sideLabels=8b949e&dates=8b949e" alt="GitHub Streak" />
 </p>
 
 ---
