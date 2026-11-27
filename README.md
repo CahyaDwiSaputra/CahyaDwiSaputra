@@ -29,37 +29,14 @@ Current engineering projects:
 
 ### Production Systems
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">Repository</th>
-      <th align="left">Architecture &amp; Core Capabilities</th>
-      <th align="left">Technology</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b><a href="https://github.com/CahyaDwiSaputra/Magang-HPU">HPU Fleet Telematics</a></b></td>
-      <td>Dual MDVR dashcam video streaming, haul road GPS tracking with stationing markers (STA), and real-time ADAS/DMS safety event alerts for mining operations.</td>
-      <td><code>Laravel 13</code> · <code>React 19 Inertia</code> · <code>PostgreSQL</code> · <code>CMSV6 Gateway</code></td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/CahyaDwiSaputra/cuanin">cuan.in Escrow</a></b></td>
-      <td>Automated payment vault for Indonesian MSMEs with Midtrans QRIS checkout, webhook signature verification, and automated merchant disbursements.</td>
-      <td><code>Node.js</code> · <code>Express</code> · <code>PostgreSQL</code> · <code>Midtrans API</code></td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/CahyaDwiSaputra/GrowMatic">GrowMatic Smart Farming</a></b></td>
-      <td>Automated microclimate environment monitoring and misting irrigation triggers for oyster mushroom cultivation.</td>
-      <td><code>ESP32</code> · <code>Arduino Uno</code> · <code>DHT11</code> · <code>MySQL</code></td>
-    </tr>
-    <tr>
-      <td><b><a href="https://github.com/CahyaDwiSaputra/hostuner-webhosting">Hostuner Cloud</a></b></td>
-      <td>Hosting storefront and automated domain/VPS provisioning integrated with WHMCS billing lifecycle APIs.</td>
-      <td><code>Vite React</code> · <code>Express</code> · <code>PostgreSQL</code> · <code>WHMCS API</code></td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <a href="https://github.com/CahyaDwiSaputra/Magang-HPU"><img src="./assets/card-hpu.svg" width="49%" alt="HPU Fleet Telematics" /></a>
+  <a href="https://github.com/CahyaDwiSaputra/cuanin"><img src="./assets/card-cuanin.svg" width="49%" alt="cuan.in Escrow Platform" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/CahyaDwiSaputra/GrowMatic"><img src="./assets/card-growmatic.svg" width="49%" alt="GrowMatic Smart Farming" /></a>
+  <a href="https://github.com/CahyaDwiSaputra/hostuner-webhosting"><img src="./assets/card-hostuner.svg" width="49%" alt="Hostuner Cloud Platform" /></a>
+</p>
 
 ---
 
