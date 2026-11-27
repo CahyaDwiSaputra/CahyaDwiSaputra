@@ -2,76 +2,84 @@
   <img src="./assets/header.svg" alt="Banner" width="100%">
 </p>
 
-<h1 align="center">Hi 👋, I'm Cahya</h1>
-
-<h3 align="center">Fullstack Software Engineer &amp; IoT Developer</h3>
+<h1 align="center">Cahya Dwi Saputra</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=50&lines=+%3E+Building+Scalable+Cloud+Platforms;+%3E+Streaming+Mining+Telematics;+%3E+Automating+Edge+Microcontrollers;Talk+is+cheap.+Show+me+the+code." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1200&color=9CA3AF&center=true&vCenter=true&width=620&height=32&lines=Informatics+student+at+Universitas+Sebelas+Maret;Industrial+fleet+telematics+and+MDVR+streaming;Fullstack+web+platforms+with+Laravel%2C+React%2C+and+Node;Microcontroller+firmware+on+ESP32+and+Arduino" alt="Typing SVG" />
 </p>
 
 <p align="center">
-Building reliable distributed web platforms with clean architecture and real-world telematics systems.
+  <a href="https://github.com/CahyaDwiSaputra"><img src="https://img.shields.io/badge/GitHub-CahyaDwiSaputra-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
+  &nbsp;
+  <a href="mailto:cahyadwisaputra@student.uns.ac.id"><img src="https://img.shields.io/badge/Email-cahyadwisaputra%40student.uns.ac.id-2563EB?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 </p>
 
-## <h2 align="center">🚀 About Me</h2>
+---
 
-**Cahya Dwi Saputra**, Here : an Informatics student at **Universitas Sebelas Maret (UNS)** based in Surakarta, Indonesia, focused on fullstack engineering and vehicle telematics.
+### Overview
 
-I enjoy building scalable, production-ready web applications using **Laravel 13**, **React 19 (Inertia.js)**, and **Node.js Express**, coupled with edge IoT hardware.
+Informatics student at Universitas Sebelas Maret (UNS) based in Surakarta, Indonesia. My work focuses on backend architectures, distributed web platforms, and vehicle telematics hardware integrations.
 
-Hands-on experience includes engineering mining fleet dashcam streaming via **CMSV6 gateways** (PT HPU), multi-tenant centralized escrow vaults (**cuan.in**), and automated microclimate irrigation (**GrowMatic**).
+Current engineering projects:
+* Telematics pipelines: processing live dual-channel MDVR dashcam video and haul road stationing markers (STA) via CMSV6 gateways for mining fleet management at PT HPU.
+* Financial systems: building multi-tenant escrow payment vaults with Midtrans QRIS checkout, webhook verification, and automated disbursement workflows on cuan.in.
+* IoT systems: developing automated microclimate monitoring and misting irrigation logic on ESP32 and Arduino microcontrollers for agricultural cultivation.
 
-My goal is simple: write clean code, design resilient architectures, and engineer dependable systems that solve real-world problems.
+---
 
-<h2 align="center">🤝 Connect</h2>
+### Production Systems
+
+<table>
+  <thead>
+    <tr>
+      <th align="left">Repository</th>
+      <th align="left">Architecture &amp; Core Capabilities</th>
+      <th align="left">Technology</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b><a href="https://github.com/CahyaDwiSaputra/Magang-HPU">HPU Fleet Telematics</a></b></td>
+      <td>Dual MDVR dashcam video streaming, haul road GPS tracking with stationing markers (STA), and real-time ADAS/DMS safety event alerts for mining operations.</td>
+      <td><code>Laravel 13</code> · <code>React 19 Inertia</code> · <code>PostgreSQL</code> · <code>CMSV6 Gateway</code></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/CahyaDwiSaputra/cuanin">cuan.in Escrow</a></b></td>
+      <td>Automated payment vault for Indonesian MSMEs with Midtrans QRIS checkout, webhook signature verification, and automated merchant disbursements.</td>
+      <td><code>Node.js</code> · <code>Express</code> · <code>PostgreSQL</code> · <code>Midtrans API</code></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/CahyaDwiSaputra/GrowMatic">GrowMatic Smart Farming</a></b></td>
+      <td>Automated microclimate environment monitoring and misting irrigation triggers for oyster mushroom cultivation.</td>
+      <td><code>ESP32</code> · <code>Arduino Uno</code> · <code>DHT11</code> · <code>MySQL</code></td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/CahyaDwiSaputra/hostuner-webhosting">Hostuner Cloud</a></b></td>
+      <td>Hosting storefront and automated domain/VPS provisioning integrated with WHMCS billing lifecycle APIs.</td>
+      <td><code>Vite React</code> · <code>Express</code> · <code>PostgreSQL</code> · <code>WHMCS API</code></td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### Technical Toolkit
 
 <p align="center">
-  <a href="https://github.com/CahyaDwiSaputra">
-    <img src="https://skillicons.dev/icons?i=github" height="45" alt="GitHub" />
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="mailto:cahyadwisaputra@student.uns.ac.id">
-    <img src="https://skillicons.dev/icons?i=gmail" height="45" alt="Gmail" />
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,js,php,python,cpp,dart,laravel,react,nextjs,nodejs,express,tailwind" alt="Languages and Frameworks" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,git,arduino,postman,vscode,figma" alt="Databases, Infrastructure and Tools" />
 </p>
 
-<h2 align="center">💻 Tech Stack</h2>
+---
+
+### Activity &amp; Performance
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,php,py,cpp,dart,laravel,react,nextjs,nodejs,express,tailwind" alt="Languages & Frameworks" />
+  <img src="https://streak-stats.demolab.com?user=CahyaDwiSaputra&theme=city_lights&hide_border=true&border_radius=8" height="150" alt="GitHub Streak Stats" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,git,arduino,postman,html,css,vscode" alt="Databases, Tools & Hardware" />
-</p>
-
-<h2 align="center">🚀 Featured Systems</h2>
-
-* 🚛 **[HPU Dashcam & Telemetry Monitoring System](https://github.com/CahyaDwiSaputra/Magang-HPU)**  
-  Enterprise fleet management platform engineered for PT HPU mining operations. Features dual-channel MDVR live camera streaming (road and cabin view), haul road GPS tracking with stationing markers (STA), and real-time ADAS/DMS safety event alerts.  
-  `Laravel 13` · `React 19 (Inertia.js)` · `Tailwind CSS` · `PostgreSQL` · `CMSV6 Gateway`
-
-* 💳 **[cuan.in Escrow Platform](https://github.com/CahyaDwiSaputra/cuanin)**  
-  Multi-tenant online store builder with an automated escrow payment vault for Indonesian MSMEs, featuring Midtrans QRIS integration, automated merchant payouts upon delivery verification, and isolated tenant subdomains.  
-  `Node.js` · `Express` · `PostgreSQL` · `Midtrans Snap & Iris API`
-
-* 🌱 **[GrowMatic Smart Farming](https://github.com/CahyaDwiSaputra/GrowMatic)**  
-  IoT microclimate monitoring and automated irrigation misting system for oyster mushroom cultivation using ESP32, Arduino Uno, environmental sensors, and a web dashboard.  
-  `ESP32` · `Arduino Uno` · `DHT11` · `Soil Sensors` · `MySQL`
-
-* 🌐 **[Hostuner Cloud Webhosting](https://github.com/CahyaDwiSaputra/hostuner-webhosting)**  
-  Storefront and management portal for web hosting, domain registrations, and cloud VPS instances connected directly to WHMCS billing APIs for automated provisioning and invoice tracking.  
-  `Vite` · `React` · `Node.js Express` · `PostgreSQL` · `WHMCS API`
-
-<h2 align="center">📊 GitHub Stats</h2>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=CahyaDwiSaputra&theme=city_lights&hide_border=false&border_radius=5" height="150" alt="GitHub Streak Stats" />
-</div>
-
-<h2 align="center">📈 Activity Graph</h2>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CahyaDwiSaputra&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CahyaDwiSaputra&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=38BDF8&area=true&hide_border=true&radius=12" alt="Activity Graph" />
 </p>
