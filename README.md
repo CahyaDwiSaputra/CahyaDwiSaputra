@@ -1,53 +1,69 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/lofi-coder.gif" width="100%" alt="Pixel Art Coding Scene" />
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/hero.svg" width="100%" alt="Cahya Dwi Saputra Banner" />
 </p>
 
-# Cahya Dwi Saputra
-
-Fullstack Web & IoT Developer based in Surakarta, Indonesia.  
-Informatics student at Universitas Sebelas Maret (UNS).
-
-Building distributed web applications, camera streaming pipelines, and embedded microcontroller systems. My technical focus centers on Laravel, React, Node.js, and edge IoT devices.
+Software Engineer and Informatics student at Universitas Sebelas Maret (UNS), Surakarta.
+Focused on building reliable fullstack web platforms, fleet telematics pipelines, and embedded IoT systems. Experienced in distributed application architecture with Laravel and Node.js, live camera streaming integrations, and edge sensor automation.
 
 ---
 
-## Selected Projects
+## Featured Projects
 
-* [**HPU Dashcam & Telemetry System**](https://github.com/CahyaDwiSaputra/Magang-HPU)  
-  Enterprise mining fleet monitoring platform built with Laravel 13, React 19 Inertia, and CMSV6 gateway integration for real-time dual-camera MDVR streaming, haul road GPS tracking, and ADAS/DMS safety event alerts.
+### [HPU Dashcam & Telemetry Monitoring System](https://github.com/CahyaDwiSaputra/Magang-HPU)
+Enterprise fleet monitoring platform engineered for PT HPU mining operations.
+* **Dual-Channel Video Streaming:** Integrates with CMSV6 media gateways to stream road and cabin views with low latency.
+* **Live Telemetry & Mapping:** Tracks real-time GPS coordinates, hauling road stationing (STA), speed, and fuel levels on interactive maps.
+* **Safety Event Processing:** Synchronizes ADAS and DMS events, including harsh braking, sharp turns, collision alerts, and driver distraction warnings.
+* **Stack:** `Laravel 13` `React 19 (Inertia.js)` `Tailwind CSS` `PostgreSQL` `CMSV6`
 
-* [**cuan.in Escrow Platform**](https://github.com/CahyaDwiSaputra/cuanin)  
-  Multi-tenant online store builder with automated centralized escrow payment handling for Indonesian MSMEs, featuring Midtrans QRIS payments, automated merchant payouts, and isolated subdomains.
+### [cuan.in: MSME Storefront & Centralized Escrow](https://github.com/CahyaDwiSaputra/cuanin)
+Centralized payment escrow gateway and multi-tenant website builder for Indonesian merchants.
+* **Escrow Guarantee:** Protects transactions by holding payments via Midtrans QRIS and disbursing funds automatically once delivery is confirmed.
+* **Tenant Isolation:** Separates central platform marketing from isolated merchant storefronts hosted on dedicated subdomains.
+* **Stack:** `Node.js` `Express` `PostgreSQL` `Midtrans Snap` `Iris API`
 
-* [**GrowMatic Smart Farming**](https://github.com/CahyaDwiSaputra/GrowMatic)  
-  IoT microclimate monitoring and automated irrigation misting system for oyster mushroom cultivation using ESP32, Arduino Uno, environmental sensors, and a web dashboard.
+### [GrowMatic: Smart Farming & Microclimate Automation](https://github.com/CahyaDwiSaputra/GrowMatic)
+IoT environmental monitoring and microclimate control system for oyster mushroom cultivation.
+* **Environmental Telemetry:** Monitors ambient temperature, air humidity, and substrate moisture levels in real time.
+* **Automated Actuation:** Controls misting pumps and ventilation fans dynamically based on sensor threshold rules.
+* **Stack:** `ESP32` `Arduino Uno` `DHT11` `Soil Sensors` `JavaScript` `MySQL`
 
-* [**Hostuner Cloud Webhosting**](https://github.com/CahyaDwiSaputra/hostuner-webhosting)  
-  Web hosting and VPS management portal integrated with WHMCS billing systems for automated domain checks, provisioning, and invoice tracking.
+### [Hostuner: Cloud Webhosting Platform](https://github.com/CahyaDwiSaputra/hostuner-webhosting)
+Storefront and provisioning portal for webhosting, domain registrations, and cloud VPS instances.
+* **WHMCS Integration:** Connects directly with WHMCS billing APIs for domain availability lookups, automated package provisioning, and invoice lifecycle management.
+* **Stack:** `Vite` `React` `Node.js Express` `PostgreSQL` `WHMCS API`
 
-* [**Embedded Systems & Sensor Lab**](https://github.com/CahyaDwiSaputra/arduino-iot-collection)  
-  Curated collection of firmware implementations across ESP32 and Arduino, including RFID door locks, Blynk IoT weather stations, and ultrasonic radar sensors.
+### [Embedded Systems & Sensor Lab](https://github.com/CahyaDwiSaputra/arduino-iot-collection)
+Curated collection of microcontroller firmware implementations across ESP32 and Arduino platforms.
+* **Implementations:** ESP32 RFID MFRC522 smart doorlock with SG90 servo actuation, wireless environmental station streaming to Blynk IoT Cloud, and ultrasonic proximity radar with 16x2 I2C LCD readouts.
+* **Stack:** `C++` `ESP32` `Arduino Uno` `SPI` `I2C` `Blynk IoT`
 
 ---
 
-## Tech Stack
+## Technical Expertise
 
-* **Languages:** TypeScript, JavaScript, PHP, Python, C++, Dart, SQL
-* **Frameworks & Libraries:** Laravel, React, Next.js, Inertia.js, Node.js, Express, Tailwind CSS, Flutter
-* **Databases & Tools:** PostgreSQL, MySQL, Docker, Linux, Git, Postman
-* **IoT & Hardware:** ESP32, Arduino Uno, Sensors (SPI, I2C, UART), MQTT
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/tech-stack.svg" width="100%" alt="Technical Expertise & Stack" />
+</p>
 
 ---
 
 ## Codebase Language Distribution
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CahyaDwiSaputra&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Language Distribution" />
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/languages.svg" width="100%" alt="Codebase Language Distribution" />
 </p>
 
 ---
 
-## Connect
+## Education
+
+* **Universitas Sebelas Maret (UNS)**, Surakarta  
+  Diploma in Informatics / Computer Science
+
+---
+
+## Contact
 
 * Email: cahyadwisaputra@student.uns.ac.id
 * GitHub: [github.com/CahyaDwiSaputra](https://github.com/CahyaDwiSaputra)
