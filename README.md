@@ -1,62 +1,45 @@
 <p align="center">
-  <img src="./assets/header.svg" alt="Banner" width="100%">
+  <img src="./assets/header.svg" alt="The Creation of Adam in Code" width="100%">
 </p>
 
-<h1 align="center">Cahya Dwi Saputra</h1>
+# Cahya Dwi Saputra
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&pause=1200&color=9CA3AF&center=true&vCenter=true&width=620&height=32&lines=Informatics+student+at+Universitas+Sebelas+Maret;Industrial+fleet+telematics+and+MDVR+streaming;Fullstack+web+platforms+with+Laravel%2C+React%2C+and+Node;Microcontroller+firmware+on+ESP32+and+Arduino" alt="Typing SVG" />
-</p>
+Informatics student at Universitas Sebelas Maret (UNS), Surakarta. Working on backend architectures, industrial vehicle telematics, and edge microcontrollers.
 
-<p align="center">
-  <a href="https://github.com/CahyaDwiSaputra"><img src="https://img.shields.io/badge/GitHub-CahyaDwiSaputra-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"></a>
-  &nbsp;
-  <a href="mailto:cahyadwisaputra@student.uns.ac.id"><img src="https://img.shields.io/badge/Email-cahyadwisaputra%40student.uns.ac.id-2563EB?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-</p>
+Currently:
+* Building mining fleet telematics (CMSV6 gateway, dual-channel MDVR live streaming, haul road GPS stationing) at **PT HPU**.
+* Maintaining **cuan.in**, an automated escrow payment vault for Indonesian MSMEs with Midtrans QRIS and Iris disbursements.
+* Developing microclimate monitoring and misting automation firmware on **ESP32** and **Arduino** for smart agriculture (**GrowMatic**).
 
----
+### Projects
 
-### Overview
+* **[Magang-HPU](https://github.com/CahyaDwiSaputra/Magang-HPU)**  
+  Industrial fleet monitoring system for mining haul trucks. Streams dual-channel MDVR dashcam video (road and cabin views), records GPS coordinates against haul road stationing markers (STA), and captures real-time ADAS/DMS safety events.  
+  `Laravel 13` · `React 19 (Inertia.js)` · `PostgreSQL` · `CMSV6 Gateway`
 
-Informatics student at Universitas Sebelas Maret (UNS) based in Surakarta, Indonesia. My work focuses on backend architectures, distributed web platforms, and vehicle telematics hardware integrations.
+* **[cuanin](https://github.com/CahyaDwiSaputra/cuanin)**  
+  Multi-tenant online storefront and centralized escrow payment system. Handles Midtrans QRIS payment callbacks, webhook signature verification, and automated payouts to merchant bank accounts upon delivery confirmation.  
+  `Node.js` · `Express` · `PostgreSQL` · `Midtrans Snap & Iris API`
 
-Current engineering projects:
-* Telematics pipelines: processing live dual-channel MDVR dashcam video and haul road stationing markers (STA) via CMSV6 gateways for mining fleet management at PT HPU.
-* Financial systems: building multi-tenant escrow payment vaults with Midtrans QRIS checkout, webhook verification, and automated disbursement workflows on cuan.in.
-* IoT systems: developing automated microclimate monitoring and misting irrigation logic on ESP32 and Arduino microcontrollers for agricultural cultivation.
+* **[GrowMatic](https://github.com/CahyaDwiSaputra/GrowMatic)**  
+  Automated microclimate environment control for oyster mushroom cultivation. Reads temperature, ambient humidity, and soil moisture to actuate misting irrigation pumps via relay modules.  
+  `ESP32` · `Arduino Uno` · `DHT11` · `Soil Sensors` · `MySQL`
 
----
+* **[hostuner-webhosting](https://github.com/CahyaDwiSaputra/hostuner-webhosting)**  
+  Web hosting storefront and customer dashboard integrated with WHMCS billing lifecycle APIs for automated domain registration and cloud VPS provisioning.  
+  `Vite React` · `Node.js Express` · `PostgreSQL` · `WHMCS API`
 
-### Production Systems
+### Stack
 
-<p align="center">
-  <a href="https://github.com/CahyaDwiSaputra/Magang-HPU"><img src="./assets/card-hpu.svg" width="49%" alt="HPU Fleet Telematics" /></a>
-  <a href="https://github.com/CahyaDwiSaputra/cuanin"><img src="./assets/card-cuanin.svg" width="49%" alt="cuan.in Escrow Platform" /></a>
-</p>
-<p align="center">
-  <a href="https://github.com/CahyaDwiSaputra/GrowMatic"><img src="./assets/card-growmatic.svg" width="49%" alt="GrowMatic Smart Farming" /></a>
-  <a href="https://github.com/CahyaDwiSaputra/hostuner-webhosting"><img src="./assets/card-hostuner.svg" width="49%" alt="Hostuner Cloud Platform" /></a>
-</p>
+* **Languages:** TypeScript, JavaScript, PHP, Python, C++, SQL
+* **Backend:** Laravel, Node.js, Express, REST APIs, WebSockets
+* **Frontend:** React, Inertia.js, Next.js, Tailwind CSS
+* **Databases:** PostgreSQL, MySQL
+* **Hardware & Protocols:** ESP32, Arduino Uno, CMSV6 Gateway, MQTT
+* **Tools:** Docker, Linux, Git, Postman
 
----
+### Contact
 
-### Technical Toolkit
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,php,python,cpp,dart,laravel,react,nextjs,nodejs,express,tailwind" alt="Languages and Frameworks" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,docker,linux,git,arduino,postman,vscode,figma" alt="Databases, Infrastructure and Tools" />
-</p>
-
----
-
-### Activity &amp; Performance
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=CahyaDwiSaputra&theme=city_lights&hide_border=true&border_radius=8" height="150" alt="GitHub Streak Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CahyaDwiSaputra&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=38BDF8&area=true&hide_border=true&radius=12" alt="Activity Graph" />
-</p>
+* Email: [cahyadwisaputra@student.uns.ac.id](mailto:cahyadwisaputra@student.uns.ac.id)
+* GitHub: [@CahyaDwiSaputra](https://github.com/CahyaDwiSaputra)
+* Location: Surakarta, Indonesia
