@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 180" width="100%" height="180" fill="none">
+  <defs>
+    <!-- Animated Gradients -->
+    <linearGradient id="aurora" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f6feb" stop-opacity="0.25">
+        <animate attributeName="stop-color" values="#1f6feb;#8957e5;#238636;#1f6feb" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#8957e5" stop-opacity="0.15">
+        <animate attributeName="stop-color" values="#8957e5;#238636;#1f6feb;#8957e5" dur="12s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0.8" />
+    </linearGradient>
+
+    <linearGradient id="borderBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f6feb" />
+      <stop offset="50%" stop-color="#58a6ff" />
+      <stop offset="100%" stop-color="#238636" />
+    </linearGradient>
+
+    <style>
+      .hero-name {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+        fill: #f0f6fc;
+      }
+      .hero-tag {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        fill: #58a6ff;
+      }
+      .hero-desc {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        font-size: 13px;
+        fill: #8b949e;
+      }
+      .badge-label {
+        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace;
+        font-size: 11px;
+        font-weight: 600;
+        fill: #7ee787;
+        letter-spacing: 0.5px;
+      }
+      
+      /* Subtle Floating Particles */
+      .particle {
+        animation: floatParticle 6s ease-in-out infinite;
+      }
+      @keyframes floatParticle {
+        0%, 100% { transform: translateY(0px) scale(1); opacity: 0.3; }
+        50% { transform: translateY(-12px) scale(1.3); opacity: 0.8; }
+      }
+      .p1 { animation-delay: 0s; }
+      .p2 { animation-delay: 1.5s; }
+      .p3 { animation-delay: 3s; }
+      .p4 { animation-delay: 4.5s; }
+
+      /* Live Pulse Dot */
+      .pulse-dot {
+        animation: livePulse 2s ease-in-out infinite;
+      }
+      @keyframes livePulse {
+        0%, 100% { r: 3.5; opacity: 1; }
+        50% { r: 6.5; opacity: 0.4; }
+      }
+
+      /* Animated Top Gradient Line */
+      .glow-line {
+        stroke-dasharray: 200, 650;
+        animation: beamRun 5s linear infinite;
+      }
+      @keyframes beamRun {
+        0% { stroke-dashoffset: 850; }
+        100% { stroke-dashoffset: -850; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect x="0.5" y="0.5" width="849" height="179" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  <rect x="1" y="1" width="848" height="178" rx="9" fill="url(#aurora)" />
+
+  <!-- Animated Top Border Line -->
+  <line x1="1" y1="1" x2="849" y2="1" stroke="url(#borderBeam)" stroke-width="2.5" class="glow-line" />
+
+  <!-- Decorative Particle Stars in Background -->
+  <circle cx="560" cy="45" r="2" fill="#58a6ff" class="particle p1" />
+  <circle cx="680" cy="80" r="1.5" fill="#7ee787" class="particle p2" />
+  <circle cx="750" cy="40" r="2.5" fill="#d2a8ff" class="particle p3" />
+  <circle cx="800" cy="110" r="2" fill="#58a6ff" class="particle p4" />
+  <circle cx="620" cy="130" r="1.5" fill="#7ee787" class="particle p1" />
+
+  <!-- Header Text -->
+  <text x="36" y="58" class="hero-name">Cahya Dwi Saputra</text>
+  <text x="36" y="90" class="hero-tag">Software Engineer &amp; IoT Developer</text>
+  <text x="36" y="118" class="hero-desc">Crafting scalable web systems, distributed platforms, and embedded hardware automation.</text>
+  <text x="36" y="142" class="hero-desc">Informatics · Universitas Sebelas Maret (UNS) · Surakarta, Indonesia</text>
+
+  <!-- Status Pill -->
+  <g transform="translate(620, 32)">
+    <rect width="194" height="30" rx="15" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="16" cy="15" r="4" fill="#3fb950" class="pulse-dot" />
+    <text x="28" y="19" class="badge-label">OPEN TO COLLABORATE</text>
+  </g>
+</svg>

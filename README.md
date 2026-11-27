@@ -1,17 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/header.svg" width="100%" alt="Cahya Dwi Saputra" />
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/developer-banner.svg" width="100%" alt="Cahya Dwi Saputra" />
 </p>
 
-I am an Informatics student at Universitas Sebelas Maret (UNS) based in Surakarta, Indonesia. My work focuses on building fullstack web platforms, fleet telematics pipelines, and embedded IoT systems.
-
----
-
-## System Architecture
-
-Below is the high-level architecture of the mining fleet telematics and dual-channel dashcam ingestion pipeline built for PT HPU mining operations:
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/telematics-flow.svg" width="100%" alt="HPU Fleet Telematics Architecture" />
+  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/code-card.svg" width="100%" alt="Developer Environment" />
 </p>
 
 ---
