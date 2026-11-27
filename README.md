@@ -1,70 +1,62 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/hero.svg" width="100%" alt="Cahya Dwi Saputra Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=220&section=header&text=Cahya%20Dwi%20Saputra&fontSize=42&fontAlignY=38&desc=Fullstack%20Developer%20%C2%B7%20IoT%20Engineer&descAlignY=58&descAlign=50" width="100%" alt="Header" />
 </p>
 
-Software Engineer and Informatics student at Universitas Sebelas Maret (UNS), Surakarta.
-Focused on building reliable fullstack web platforms, fleet telematics pipelines, and embedded IoT systems. Experienced in distributed application architecture with Laravel and Node.js, live camera streaming integrations, and edge sensor automation.
+### Hey there, I'm Cahya! 👋
+
+I'm a Software Engineer and Informatics student at **Universitas Sebelas Maret (UNS)** based in Surakarta, Indonesia.  
+I build fullstack web platforms, vehicle telematics pipelines, and embedded IoT systems with a focus on clean architecture, modern frontend experiences, and reliable edge hardware integration.
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### [HPU Dashcam & Telemetry Monitoring System](https://github.com/CahyaDwiSaputra/Magang-HPU)
-Enterprise fleet monitoring platform engineered for PT HPU mining operations.
-* **Dual-Channel Video Streaming:** Integrates with CMSV6 media gateways to stream road and cabin views with low latency.
-* **Live Telemetry & Mapping:** Tracks real-time GPS coordinates, hauling road stationing (STA), speed, and fuel levels on interactive maps.
-* **Safety Event Processing:** Synchronizes ADAS and DMS events, including harsh braking, sharp turns, collision alerts, and driver distraction warnings.
-* **Stack:** `Laravel 13` `React 19 (Inertia.js)` `Tailwind CSS` `PostgreSQL` `CMSV6`
+* 🚛 **[HPU Dashcam & Telemetry Monitoring System](https://github.com/CahyaDwiSaputra/Magang-HPU)**  
+  Enterprise fleet management platform engineered for PT HPU mining operations. Features dual-channel MDVR live camera streaming (road & cabin view), haul road GPS tracking, and real-time ADAS/DMS safety event alerts.  
+  `Laravel 13` · `React 19 (Inertia.js)` · `Tailwind CSS` · `PostgreSQL` · `CMSV6`
 
-### [cuan.in: MSME Storefront & Centralized Escrow](https://github.com/CahyaDwiSaputra/cuanin)
-Centralized payment escrow gateway and multi-tenant website builder for Indonesian merchants.
-* **Escrow Guarantee:** Protects transactions by holding payments via Midtrans QRIS and disbursing funds automatically once delivery is confirmed.
-* **Tenant Isolation:** Separates central platform marketing from isolated merchant storefronts hosted on dedicated subdomains.
-* **Stack:** `Node.js` `Express` `PostgreSQL` `Midtrans Snap` `Iris API`
+* 💳 **[cuan.in: MSME Storefront & Centralized Escrow](https://github.com/CahyaDwiSaputra/cuanin)**  
+  Multi-tenant online store builder with an automated escrow payment vault for Indonesian MSMEs, featuring Midtrans QRIS integration, automated merchant payouts upon delivery verification, and isolated tenant subdomains.  
+  `Node.js` · `Express` · `PostgreSQL` · `Midtrans Snap & Iris API`
 
-### [GrowMatic: Smart Farming & Microclimate Automation](https://github.com/CahyaDwiSaputra/GrowMatic)
-IoT environmental monitoring and microclimate control system for oyster mushroom cultivation.
-* **Environmental Telemetry:** Monitors ambient temperature, air humidity, and substrate moisture levels in real time.
-* **Automated Actuation:** Controls misting pumps and ventilation fans dynamically based on sensor threshold rules.
-* **Stack:** `ESP32` `Arduino Uno` `DHT11` `Soil Sensors` `JavaScript` `MySQL`
+* 🌱 **[GrowMatic: Smart Farming & Microclimate Automation](https://github.com/CahyaDwiSaputra/GrowMatic)**  
+  IoT microclimate monitoring and automated irrigation misting system for oyster mushroom cultivation using ESP32, Arduino Uno, environmental sensors, and a web dashboard.  
+  `ESP32` · `Arduino Uno` · `DHT11` · `Soil Sensors` · `MySQL`
 
-### [Hostuner: Cloud Webhosting Platform](https://github.com/CahyaDwiSaputra/hostuner-webhosting)
-Storefront and provisioning portal for webhosting, domain registrations, and cloud VPS instances.
-* **WHMCS Integration:** Connects directly with WHMCS billing APIs for domain availability lookups, automated package provisioning, and invoice lifecycle management.
-* **Stack:** `Vite` `React` `Node.js Express` `PostgreSQL` `WHMCS API`
+* 🌐 **[Hostuner: Cloud Webhosting Platform](https://github.com/CahyaDwiSaputra/hostuner-webhosting)**  
+  Storefront and management portal for web hosting, domain registrations, and cloud VPS instances connected directly to WHMCS billing APIs for automated provisioning and invoice tracking.  
+  `Vite` · `React` · `Node.js Express` · `PostgreSQL` · `WHMCS API`
 
-### [Embedded Systems & Sensor Lab](https://github.com/CahyaDwiSaputra/arduino-iot-collection)
-Curated collection of microcontroller firmware implementations across ESP32 and Arduino platforms.
-* **Implementations:** ESP32 RFID MFRC522 smart doorlock with SG90 servo actuation, wireless environmental station streaming to Blynk IoT Cloud, and ultrasonic proximity radar with 16x2 I2C LCD readouts.
-* **Stack:** `C++` `ESP32` `Arduino Uno` `SPI` `I2C` `Blynk IoT`
+* ⚡ **[Embedded Systems & Sensor Lab](https://github.com/CahyaDwiSaputra/arduino-iot-collection)**  
+  Curated collection of firmware implementations across ESP32 and Arduino, including RFID MFRC522 access control, wireless Blynk IoT weather stations, and ultrasonic proximity radar.  
+  `C++` · `ESP32` · `Arduino Uno` · `SPI` · `I2C` · `Blynk IoT`
 
 ---
 
-## Technical Expertise
+## 🛠️ Tech Stack & Tooling
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/tech-stack.svg" width="100%" alt="Technical Expertise & Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,js,php,py,cpp,dart,laravel,react,nextjs,nodejs,express,tailwind,flutter,postgres,mysql,docker,linux,git,arduino,postman&perline=10" alt="Tech Stack Icons" />
 </p>
 
 ---
 
-## Codebase Language Distribution
+## 📊 Codebase Language Distribution
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CahyaDwiSaputra/CahyaDwiSaputra/main/assets/languages.svg" width="100%" alt="Codebase Language Distribution" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CahyaDwiSaputra&layout=donut&theme=tokyonight&hide_border=true&title_color=00c6ff" alt="Language Distribution Donut Chart" />
 </p>
 
 ---
 
-## Education
+## 📬 Connect With Me
 
-* **Universitas Sebelas Maret (UNS)**, Surakarta  
-  Diploma in Informatics / Computer Science
+<p align="center">
+  <a href="mailto:cahyadwisaputra@student.uns.ac.id"><img src="https://img.shields.io/badge/Email-cahyadwisaputra%40student.uns.ac.id-0072ff?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  &nbsp;
+  <a href="https://github.com/CahyaDwiSaputra"><img src="https://img.shields.io/badge/GitHub-CahyaDwiSaputra-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
----
-
-## Contact
-
-* Email: cahyadwisaputra@student.uns.ac.id
-* GitHub: [github.com/CahyaDwiSaputra](https://github.com/CahyaDwiSaputra)
-* Location: Surakarta, Indonesia
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%" alt="Footer Wave" />
+</p>
