@@ -31,12 +31,25 @@ Currently:
 
 ### Stack
 
-* **Languages:** TypeScript, JavaScript, PHP, Python, C++, SQL
-* **Backend:** Laravel, Node.js, Express, REST APIs, WebSockets
-* **Frontend:** React, Inertia.js, Next.js, Tailwind CSS
-* **Databases:** PostgreSQL, MySQL
-* **Hardware & Protocols:** ESP32, Arduino Uno, CMSV6 Gateway, MQTT
-* **Tools:** Docker, Linux, Git, Postman
+* **Languages**  
+  <img src="https://skillicons.dev/icons?i=ts,js,php,py,cpp" alt="TypeScript, JavaScript, PHP, Python, C++" />  
+  `TypeScript` · `JavaScript` · `PHP` · `Python` · `C++` · `SQL`
+
+* **Backend & Databases**  
+  <img src="https://skillicons.dev/icons?i=laravel,nodejs,express,postgres,mysql" alt="Laravel, Node.js, Express, PostgreSQL, MySQL" />  
+  `Laravel 13` · `Node.js` · `Express` · `PostgreSQL` · `MySQL` · `REST APIs` · `WebSockets`
+
+* **Frontend**  
+  <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" alt="React, Next.js, Tailwind CSS" />  
+  `React 19` · `Inertia.js` · `Next.js` · `Tailwind CSS`
+
+* **Hardware & Protocols**  
+  <img src="https://skillicons.dev/icons?i=arduino" alt="Arduino" />  
+  `ESP32` · `Arduino Uno` · `CMSV6 Gateway` · `MQTT`
+
+* **Tools**  
+  <img src="https://skillicons.dev/icons?i=docker,linux,git,postman,vscode" alt="Docker, Linux, Git, Postman, VS Code" />  
+  `Docker` · `Linux` · `Git` · `Postman` · `VS Code`
 
 ### Contact
 
