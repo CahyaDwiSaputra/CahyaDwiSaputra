@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340" role="img">
+<style>
+@font-face{font-family:'JBM';font-weight:400;src:local('JetBrains Mono'),local('Consolas'),monospace}
+text{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:14px}
+.dim{fill:#8b949e}.cy{fill:#00d9ff}.fg{fill:#c9d1d9}.gr{fill:#3fb950}.wh{fill:#f0fbff}
+@keyframes fadein{from{opacity:0;transform:translateX(-6px)}to{opacity:1;transform:none}}
+.ln{animation:fadein .35s ease-out both}
+</style>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#00d9ff" stroke-opacity=".06"/></pattern>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+<filter id="g" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+<path d="M16 -30V370M864 -30V370" fill="none" stroke="#00d9ff" stroke-width="3" opacity=".55" filter="url(#glow)"/>
+<rect x="16" y="0" width="848" height="340" fill="#03040a"/>
+<rect x="16" y="0" width="848" height="340" fill="url(#grid)"/>
+
+<!-- Section Title -->
+<text x="52" y="40" font-weight="700" fill="#00d9ff" filter="url(#g)" opacity=".8" style="font-size:18px">~/</text>
+<text x="52" y="40" font-weight="700" style="font-size:18px"><tspan class="cy">~/</tspan><tspan class="wh">tech-stack</tspan></text>
+<text x="828" y="40" text-anchor="end" letter-spacing="1" fill="#6e7681" style="font-size:11px">// ACTIVE CAPABILITIES</text>
+<line x1="52" y1="52" x2="828" y2="52" stroke="#00d9ff" stroke-opacity=".3"/>
+<line x1="52" y1="52" x2="200" y2="52" stroke="#00d9ff" stroke-width="2"/>
+
+<!-- Command Prompt line -->
+<g class="ln" style="animation-delay:.15s"><text x="52" y="82" class="dim"><tspan class="gr">$</tspan> loadout --categorized --active</text></g>
+
+<!-- Category 1: Languages -->
+<g class="ln" style="animation-delay:.25s">
+  <text x="52" y="122" class="dim" style="font-size:12px">languages</text>
+  <text x="135" y="122" class="cy" style="font-size:12px">›</text>
+  
+  <rect x="150" y="106" width="94" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="160" y="122" font-weight="600" class="cy" style="font-size:11.5px">TypeScript</text>
+
+  <rect x="252" y="106" width="94" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="262" y="122" font-weight="600" class="cy" style="font-size:11.5px">JavaScript</text>
+
+  <rect x="354" y="106" width="46" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="364" y="122" font-weight="600" class="cy" style="font-size:11.5px">PHP</text>
+
+  <rect x="408" y="106" width="66" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="418" y="122" font-weight="600" class="cy" style="font-size:11.5px">Python</text>
+
+  <rect x="482" y="106" width="46" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="492" y="122" font-weight="600" class="cy" style="font-size:11.5px">C++</text>
+
+  <rect x="536" y="106" width="50" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="546" y="122" font-weight="600" class="cy" style="font-size:11.5px">Dart</text>
+
+  <rect x="594" y="106" width="46" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="604" y="122" font-weight="600" class="cy" style="font-size:11.5px">SQL</text>
+</g>
+
+<!-- Category 2: Backend -->
+<g class="ln" style="animation-delay:.35s">
+  <text x="52" y="162" class="dim" style="font-size:12px">backend</text>
+  <text x="135" y="162" class="cy" style="font-size:12px">›</text>
+
+  <rect x="150" y="146" width="92" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="160" y="162" font-weight="600" class="cy" style="font-size:11.5px">Laravel 13</text>
+
+  <rect x="250" y="146" width="76" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="260" y="162" font-weight="600" class="cy" style="font-size:11.5px">Node.js</text>
+
+  <rect x="334" y="146" width="74" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="344" y="162" font-weight="600" class="cy" style="font-size:11.5px">Express</text>
+
+  <rect x="416" y="146" width="84" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="426" y="162" font-weight="600" class="cy" style="font-size:11.5px">REST APIs</text>
+
+  <rect x="508" y="146" width="94" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="518" y="162" font-weight="600" class="cy" style="font-size:11.5px">WebSockets</text>
+</g>
+
+<!-- Category 3: Frontend -->
+<g class="ln" style="animation-delay:.45s">
+  <text x="52" y="202" class="dim" style="font-size:12px">frontend</text>
+  <text x="135" y="202" class="cy" style="font-size:12px">›</text>
+
+  <rect x="150" y="186" width="78" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="160" y="202" font-weight="600" class="cy" style="font-size:11.5px">React 19</text>
+
+  <rect x="236" y="186" width="74" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="246" y="202" font-weight="600" class="cy" style="font-size:11.5px">Next.js</text>
+
+  <rect x="318" y="186" width="90" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="328" y="202" font-weight="600" class="cy" style="font-size:11.5px">Inertia.js</text>
+
+  <rect x="416" y="186" width="94" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="426" y="202" font-weight="600" class="cy" style="font-size:11.5px">Tailwind CSS</text>
+
+  <rect x="518" y="186" width="72" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="528" y="202" font-weight="600" class="cy" style="font-size:11.5px">Flutter</text>
+</g>
+
+<!-- Category 4: IoT & Hardware -->
+<g class="ln" style="animation-delay:.55s">
+  <text x="52" y="242" class="dim" style="font-size:12px">hardware</text>
+  <text x="135" y="242" class="cy" style="font-size:12px">›</text>
+
+  <rect x="150" y="226" width="130" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="160" y="242" font-weight="600" class="cy" style="font-size:11.5px">CMSV6 Gateway</text>
+
+  <rect x="288" y="226" width="60" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="298" y="242" font-weight="600" class="cy" style="font-size:11.5px">ESP32</text>
+
+  <rect x="356" y="226" width="102" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="366" y="242" font-weight="600" class="cy" style="font-size:11.5px">Arduino Uno</text>
+
+  <rect x="466" y="226" width="124" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="476" y="242" font-weight="600" class="cy" style="font-size:11.5px">RFID MFRC522</text>
+
+  <rect x="598" y="226" width="56" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="608" y="242" font-weight="600" class="cy" style="font-size:11.5px">MQTT</text>
+</g>
+
+<!-- Category 5: Databases & Infra -->
+<g class="ln" style="animation-delay:.65s">
+  <text x="52" y="282" class="dim" style="font-size:12px">infra/db</text>
+  <text x="135" y="282" class="cy" style="font-size:12px">›</text>
+
+  <rect x="150" y="266" width="98" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="160" y="282" font-weight="600" class="cy" style="font-size:11.5px">PostgreSQL</text>
+
+  <rect x="256" y="266" width="62" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="266" y="282" font-weight="600" class="cy" style="font-size:11.5px">MySQL</text>
+
+  <rect x="326" y="266" width="66" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="336" y="282" font-weight="600" class="cy" style="font-size:11.5px">Docker</text>
+
+  <rect x="400" y="266" width="56" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="410" y="282" font-weight="600" class="cy" style="font-size:11.5px">Linux</text>
+
+  <rect x="464" y="266" width="46" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="474" y="282" font-weight="600" class="cy" style="font-size:11.5px">Git</text>
+
+  <rect x="518" y="266" width="76" height="24" rx="2" fill="#00d9ff" fill-opacity=".06" stroke="#00d9ff" stroke-opacity=".5"/>
+  <text x="528" y="282" font-weight="600" class="cy" style="font-size:11.5px">Postman</text>
+</g>
+
+<path d="M16 0V340M864 0V340" fill="none" stroke="#00d9ff" stroke-width="1.2"/>
+</svg>

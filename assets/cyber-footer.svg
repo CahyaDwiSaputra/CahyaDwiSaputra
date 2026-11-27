@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="60" viewBox="0 0 880 60" role="img">
+<style>
+@font-face{font-family:'JBM';font-weight:400;src:local('JetBrains Mono'),local('Consolas'),monospace}
+text{font-family:'JBM',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:11px}
+.dim{fill:#8b949e}.cy{fill:#00d9ff}
+</style>
+<defs>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<path d="M16 0V60M864 0V60" fill="none" stroke="#00d9ff" stroke-width="3" opacity=".55" filter="url(#glow)"/>
+<rect x="16" y="0" width="848" height="60" fill="#03040a"/>
+<line x1="16" y1="10" x2="864" y2="10" stroke="#00d9ff" stroke-opacity=".4"/>
+<text x="440" y="38" text-anchor="middle" letter-spacing="2" class="cy">SYS://SURAKARTA.UNS // ALL SYSTEMS OPERATIONAL</text>
+<g fill="none" stroke="#00d9ff" stroke-width="2">
+  <path d="M9 25V50H34"/>
+  <path d="M846 50H871V25"/>
+</g>
+</svg>
