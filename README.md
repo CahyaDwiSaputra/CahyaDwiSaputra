@@ -75,9 +75,3 @@ My goal is simple: write clean code, design resilient architectures, and enginee
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CahyaDwiSaputra&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph" />
 </p>
-
-<h2 align="center">⌘ Philosophy</h2>
-
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote" />
-</p>
