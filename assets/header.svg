@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 130" width="100%" height="130" fill="none">
+  <defs>
+    <linearGradient id="topBorderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#238636" />
+      <stop offset="50%" stop-color="#1f6feb" />
+      <stop offset="100%" stop-color="#8957e5" />
+    </linearGradient>
+    <style>
+      .hero-title {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 26px;
+        font-weight: 700;
+        fill: #f0f6fc;
+      }
+      .hero-sub {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        fill: #58a6ff;
+      }
+      .hero-affil {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        font-size: 12.5px;
+        fill: #8b949e;
+      }
+      .mono-chip {
+        font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace;
+        font-size: 11px;
+        fill: #7ee787;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="0.5" y="0.5" width="849" height="129" rx="8" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+  
+  <!-- Sleek Top Accent Line -->
+  <rect x="1" y="1" width="848" height="3" rx="1.5" fill="url(#topBorderGrad)" />
+
+  <!-- Title & Primary Details -->
+  <text x="32" y="44" class="hero-title">Cahya Dwi Saputra</text>
+  <text x="32" y="74" class="hero-sub">Fullstack Engineering · Fleet Telematics · Embedded IoT Systems</text>
+  <text x="32" y="102" class="hero-affil">Informatics · Universitas Sebelas Maret (UNS) · Surakarta, Indonesia</text>
+
+  <!-- Right Visual Spec Pills -->
+  <rect x="640" y="28" width="178" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+  <text x="655" y="46" class="mono-chip">SYS: DISTRIBUTED &amp; EDGE</text>
+
+  <rect x="640" y="66" width="178" height="28" rx="6" fill="#161b22" stroke="#30363d" />
+  <text x="655" y="84" class="mono-chip" fill="#58a6ff">STACK: FULLSTACK &amp; IOT</text>
+</svg>
