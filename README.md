@@ -1,6 +1,9 @@
 <p align="center">
   <img src="./assets/header.svg" alt="The Creation of Adam in Code" width="100%">
 </p>
+<p align="center">
+  <img src="./assets/logo.png" alt="User Logo" width="120" style="margin-top:12px;">
+</p>
 
 # Cahya Dwi Saputra
 
@@ -56,3 +59,7 @@ Currently:
 * Email: [cahyadwisaputra@student.uns.ac.id](mailto:cahyadwisaputra@student.uns.ac.id)
 * GitHub: [@CahyaDwiSaputra](https://github.com/CahyaDwiSaputra)
 * Location: Surakarta, Indonesia
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=CahyaDwiSaputra&theme=city_lights&hide_border=true&border_radius=8" alt="GitHub Streak" height="150" />
+</p>
