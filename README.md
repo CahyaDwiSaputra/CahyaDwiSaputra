@@ -1,9 +1,6 @@
 <p align="center">
   <img src="./assets/header.svg" alt="The Creation of Adam in Code" width="100%">
 </p>
-<p align="center">
-  <img src="./assets/logo.png" alt="User Logo" width="120" style="margin-top:12px;">
-</p>
 
 # Cahya Dwi Saputra
 
